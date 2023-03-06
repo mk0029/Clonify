@@ -6,7 +6,7 @@ function Loader() {
     setloader(true);
     setTimeout(() => {
       setloader(false);
-    }, 1000);
+    }, 4000);
   }, []);
   {
     if (loder) {

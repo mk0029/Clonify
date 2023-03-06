@@ -561,9 +561,9 @@ function Hader() {
                       Get up to 10TB of storage for a limited time
                     </p>
                   </div>
-                  <span className="btn_upgrade d-flex justify-content-center align-items-center thunderbox rounded-5 me-4">
+                  <span className="btn_upgrade d-flex justify-content-center align-items-center thunderbox rounded-5 me-4 upgrade_btn">
                     <a
-                      className="text-decoration-none bg-white ff_inter fs_md fw-semibold text_dark"
+                      className="text-decoration-none bg-white ff_inter fs_md fw-semibold text_dark bg-transparent "
                       href="/"
                     >
                       <span onClick={() => setShow(!show)} className="me-2">
